@@ -14,13 +14,13 @@ class Polygon{
 
 class Triangle extends Polygon{
   get isValid(){
-    return this.countSides() === 3;
+    return this.countSides === 3;
   }
 }
 
 class Square extends Polygon{
   get isValid(){
-    return this.countSides() === 4;
+    return this.countSides === 4;
   }
   
   get area(){
