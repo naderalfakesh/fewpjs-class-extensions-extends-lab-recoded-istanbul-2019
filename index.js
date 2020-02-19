@@ -20,7 +20,7 @@ class Triangle extends Polygon{
 
 class Square extends Polygon{
   get isValid(){
-    return this.countSides === 4;
+    return this.countSides === 4 && this.sides ;
   }
   
   get area(){
